@@ -1,0 +1,58 @@
+<!doctype html>
+<!-- The basis of this code was taken from github user dordille's threadly project-->
+
+<html>
+	<head>
+		<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat:400,700' />
+        <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' />
+        <link rel='stylesheet' href='style.css' />
+        <audio id = "player" src = "beautifulsoundSample.mp3" type  ="audio/mp3"></audio>
+
+    </head>
+<div id = "bgimg">
+    <body>
+
+    	<header class = "header">
+    		<div class= "row">
+    			<div class "col-xs-12 col-md-12">
+    				<h1 class= "text-center" style = "color: white;"><i>R e l a x </i> </h1>
+                    <p class = "text-center" style = "color: white;">The basis of this code was taken from github user dordille's <a href = "https://github.com/dordille/threadly">threadly</a> project</p>
+                    <!--<p class = "text-center" style = "font-size: 12px; color: white;"> Credits to <a href = "https://www.linkedin.com/in/emily-chang-65618a124/">Emily Chang</a> for background graphics </p> -->
+                    <a href = "#"><img class = "home" src = "homeicon.png" alt = "home button" style = "width: 50px; height: 50px;"></a>
+                    <!-- add <a href = ""> and put link to home page in between quotes-->
+                    <a href = "#"><img class = "resources" src = "addresources.png" alt = "resources button" style = "width: 50px; height: 50px;"></a>
+                    <img class = "sound" src = "nosoundicon.png" alt = "no sound icon" style = "width: 50px; height: 50px;">
+                    <p class = "text-center" style = "color: white; font-size: 30px; color: gold; padding-top: 20px;"><a href = "instructions.html">Instructions</a></p>
+    			</div>
+    		</div>
+    	</header>
+
+    	<div class = "main">
+    		<div class = "container">
+                <div id = "commentbox">
+    			     <ul class = "comments" id = "comments" style = "width: 1100px; height: 450px; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;">
+    				    <!--<li class = "usercomment"> Your comments will look like this... </li>-->
+                        <li class = "prompt"> Press 'tab' ONCE to start and <i>wait</i>, and please don't type unless prompted to do so...</li>
+    			     </ul>
+                </div>
+
+    			<div class = "row">
+    				<form class = "form">
+    					<div class = "col-xs-8 col-md-10">
+    						<input id ="comment" type = "text" placeholder = "">
+    					</div>
+    					<div class ="col-xs-4 col-md-2">
+    						<button type = "submit" class = "btn">Chat</button>
+    					</div>
+
+    				</form>
+    			</div>
+
+    		</div>
+    	</div>
+    	<script src = "https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    	<script src = "script.js"></script>
+    </body>
+</div>
+</html>
+

@@ -1,0 +1,20 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+	background-color:#00BFFF;
+    /*"http://bestanimations.com/Nature/Flora/Daisies/daisy-animated-gif-7.gif"*/
+    /*"https://68.media.tumblr.com/bd073f52777da7f4aa9d797364adba7b/tumblr_o901qlo8RM1vpmtiro1_500.gif"*/
+    /*url("pond14001050.gif");*/
+    background-size: 1540px 950px;
+    overflow: hidden;
+}
+
+	
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: gold;
+}

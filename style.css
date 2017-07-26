@@ -1,0 +1,136 @@
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+	background-color:#00BFFF;
+    /*"http://bestanimations.com/Nature/Flora/Daisies/daisy-animated-gif-7.gif"*/
+    /*"https://68.media.tumblr.com/bd073f52777da7f4aa9d797364adba7b/tumblr_o901qlo8RM1vpmtiro1_500.gif"*/
+    /*url("pond14001050.gif");*/
+    background-size: 1540px 950px;
+    /*overflow: hidden;*/
+}
+
+#bgimg {
+    width: 100%;
+    height: 950px;
+	background-color:#00BFFF;
+    /*"http://bestanimations.com/Nature/Flora/Daisies/daisy-animated-gif-7.gif"*/
+    /*"https://68.media.tumblr.com/bd073f52777da7f4aa9d797364adba7b/tumblr_o901qlo8RM1vpmtiro1_500.gif"*/
+    /*url("pond14001050.gif");*/
+	transition: background 1s linear;
+	background-size: 100% 100%;
+}
+
+
+h1 {
+    border-left: 2px solid #00f28f;
+    font-size: 48px;
+    font-weight: 400;
+    padding-top: 30px;
+    color: #ADD8E6;
+    /*padding-left: 50px;
+    padding-top: 30px;*/
+}
+
+.main {
+    margin-top: 60px;
+}
+
+form input {
+    position: relative;
+    background: #f0f0f0;
+    color: black;
+    border: none;
+    border-left: 2px solid #fff;
+
+    font-size: 15px;
+    padding: 20px;
+    width: 100%;
+
+    transition: background 2s, border-left 2s;
+}
+
+form input:focus {
+    background: #fff;
+    border-left: 2px solid #ADD8E6;
+    box-shadow: none;
+    outline: none;
+}
+
+
+.btn {
+    position: relative;
+    background: transparent;
+    border: none;
+
+    color: 	#ADD8E6;
+    cursor: pointer;
+
+    font-size: 15px;
+
+    padding: 20px 24px;
+
+    transition: background .5s, color .5s;
+}
+
+.btn:hover {
+
+    background: #ADD8E6;
+    color: #fff;
+}
+
+.comments {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0px;
+    overflow-y: scroll;
+}
+
+
+li.usercomment {
+    padding-left: 20px;
+    border-left: 3px solid #ADD8E6;
+    font-size: 36px;
+    margin: 0 0 36px;
+}
+
+li.prompt {
+    padding-left: 20px;
+    border-left: 5px solid #FFFF99;
+    font-size: 36px;
+    margin: 0 0 36px;
+    font-weight: bold;
+}
+
+.sound {
+
+    position: fixed;
+    right: 30px;
+    top: 10px;
+
+}
+
+.home {
+    position: fixed;
+    left: 20px;
+    top: 10px;
+}
+
+.resources {
+    position: fixed;
+    left: 85px;
+    top: 10px;
+}
+
+#commentbox {
+    overflow: hidden;
+    /*height: 400px;*/
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: gold;
+}

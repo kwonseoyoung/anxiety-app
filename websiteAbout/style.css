@@ -1,0 +1,141 @@
+html,body {
+  padding:0px;
+  margin: 0px;
+  height: 95%;
+}
+
+body{
+  background-image: url("wow.png");
+}
+
+.carousel {
+    height: 85%;
+}
+
+.item, .active, .carousel-inner{
+    height: 100%;
+}
+
+
+
+
+
+footer {
+    margin: 50px;
+}
+
+html{
+	font-family: "Ikaros sans", sans;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%
+}
+
+body{
+  margin:0
+	}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 100px;
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+h1, p{
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+
+h1{
+  background-color: grey;
+  border-style: outset;
+  border-color: grey;
+  margin: 0px 575px 20px 575px;
+}
+
+.yep{
+  text-align: center;
+
+}
+
+.nope{
+  text-align: center;
+  border-style: outset;
+  background-color: grey;
+  border-color: grey;
+  margin: 30px 680px 10px 680px;
+}
+
+.img-table{
+  padding-top: 40px;
+}
+
+.img1{
+  padding-left: 10px;
+}
+
+.p1{
+  background-color: grey;
+  border-style: outset;
+  border-color: grey;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 20px 0px 0px 0px;
+}
+
+.img2{
+  padding-left: 350px;
+}
+
+.p2{
+  background-color: grey;
+  border-style: outset;
+  border-color: grey;
+  margin: 20px 0px 0px 340px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.img3, .p3{
+  padding-left: 400px;
+}
+
+.img4, .p4{
+  padding-left: 320px;
+}
+
+
+.img5, .p5{
+  padding-left: 400px;
+}
+
+
+.group-pic{
+  margin: 20px 250px 0px 250px;
+  text-align: left;
+}
+
+.group-text{
+  background-color: grey;
+  border-style: outset;
+  margin: 10px 150px 0px 150px;
+}
