@@ -175,7 +175,7 @@ function addPrompt() {
 		});
 	}
 
-$(document).ready(startJourney()); //this is about to be the longest ass piece of code I've written
+$(document).ready(startJourney()); 
 
 
 function startJourney() {
